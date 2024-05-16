@@ -14,9 +14,6 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 @keyframes logo-spin {
   from {
@@ -37,6 +34,23 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.header {
+  position: fixed;
+  top: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  align-content: center;
+  z-index: 100;
+  display: flex; 
+  width: 80%;
+  justify-content: flex-start; 
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header p {
+  margin: 0;
+  padding: 0 10px;
 }
