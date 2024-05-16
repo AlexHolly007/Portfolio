@@ -3,6 +3,9 @@ import Project from './components/project_cmpnt'
 import Header from './components/header_comps/header'
 import Spacer from './components/spacer'
 import './App.css'
+/* TODO
+-add componenets for individual header items
+-css header more*/
 
 function App() {
   const [count, setCount] = useState(0)
