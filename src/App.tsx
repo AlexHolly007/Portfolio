@@ -4,7 +4,7 @@ import Header from './components/header_comps/header'
 import Spacer from './components/spacer'
 import './App.css'
 /* TODO
--add componenets for individual header items
+-add componenets for individual header items*
 -css header more*/
 
 function App() {
