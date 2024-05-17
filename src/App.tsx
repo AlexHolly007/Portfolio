@@ -15,6 +15,7 @@ function App() {
       <Header />
 
       <Spacer height="80px" width="100%" />
+      <Spacer height='1000px' width='100%' />
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -22,8 +23,11 @@ function App() {
         </button>
       </div>
       
-      <Project text="PROJECT 1"/>
-      <Project text="PROJECT 2"/>
+      <div id="projects">
+        <Project text="PROJECT 1"/>
+        <Project text="PROJECT 2"/>
+      </div>
+      <Spacer height='800px' width='100%' />
     </>
   )
 }
