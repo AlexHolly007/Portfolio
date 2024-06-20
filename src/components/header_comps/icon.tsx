@@ -8,7 +8,7 @@ interface IconTypes {
 
 const Icon: React.FC<IconTypes>= ({icon_img, site_link}) => {
     return (
-        <a href={site_link} target="_blank" rel="noopener noreferrer">
+        <a href={site_link} className="linkid" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={icon_img} />
         </a>
     )

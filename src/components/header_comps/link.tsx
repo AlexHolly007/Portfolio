@@ -17,7 +17,7 @@ const Header_link: React.FC<LinkType> = ({target, children}) => {
     };
 
     return (
-        <a href="#" onClick={scroll_to_target}>
+        <a href="#" className="linkid" onClick={scroll_to_target}>
             {children}
         </a>
     )

@@ -1,25 +1,49 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
+import "../intro.css";
 
-const Intoduction: React.FC = () => {
-    const [introComplete, setIntroComplete] = useState(false);
+const Introduction: React.FC = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const [isBouncing, setIsBouncing] = useState(false);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setIntroComplete(true);
-        }, 3000);
+  useEffect(() => {
+    console.log("Component mounted");
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+      console.log("Visibility set to true");
+    }, 1000);
 
-        return () => clearTimeout(timer);
-    }, []);
-    return (
-        <div>
-            {!introComplete && <div className="full-circle"></div>}
-            {introComplete && (
-                <div className="IntroDiv" id="IntroDiv">
-                    <h2>Welcome to Alex Holly's Portfolio</h2>
-                </div>
-            )}
-        </div>
-    )
+    const bounceTimer = setTimeout(() => {
+      setIsBouncing(true);
+      console.log("Bouncing set to true");
+    }, 5000); // Start bouncing after 5 seconds
+
+    return () => {
+      clearTimeout(timer);
+      clearTimeout(bounceTimer);
+    };
+  }, []);
+
+  const text = "Welcome to Alex Holly's Portfolio";
+  const text2 = "Student    Cloud Developer    Project manager    Teammate    Infrastructure Engineer";
+
+  return (
+    <div className="" id="IntroDiv">
+      <div>
+        {text.split(' ').map((word, index) => (
+          <h1 key={index} className={`fade-in-word ${isVisible ? 'visible' : ''}`}>
+            {word}
+          </h1>
+        ))}
+      </div>
+      <div>
+        {text2.split(' ').map((word, index) => (
+          <h3 key={index} className={`fade-in-word ${isVisible ? 'visible' : ''} ${isBouncing ? 'bounce' : ''}`}>
+            {word}
+          </h3>
+        ))}
+      </div>
+    </div>
+  );
 }
 
-export default Intoduction
+export default Introduction;

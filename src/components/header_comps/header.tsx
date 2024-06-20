@@ -17,7 +17,7 @@ const Header: React.FC = () => {
             </Header_link>
 
             <Header_link target="projects">
-                projects
+                Projects
             </Header_link>
 
             <Header_link target="Infrastructure">

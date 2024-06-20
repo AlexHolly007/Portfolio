@@ -5,6 +5,7 @@ import Spacer from './components/spacer'
 import Intoduction from './components/intro'
 import Education from './components/Education'
 import Infrastructure from './components/Infrastructure'
+import ChevronAnimation from './components/down_arrows'
 import './App.css'
 /* TODO
 -complete header links to divs in app
@@ -19,17 +20,19 @@ function App() {
     <>
       <Header />
       
-      <Spacer height="10%" width="100%" />
+      <Spacer height="120px" width="100%" />
 
       <Intoduction />
 
-      <Spacer height='400px' width='100%' />
+      <Spacer height='250px' width='100%' />
+      <ChevronAnimation />
+      <Spacer height='150px' width='100%' />
 
       <Education />
 
       <Spacer height='400px' width='100%' />
 
-      <div className="card">
+      <div className="card scroll-point">
         <button onClick={() => setCount((count) => count + 1)}>
           Clicks: {count}
         </button>
