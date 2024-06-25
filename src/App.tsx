@@ -20,13 +20,15 @@ function App() {
     <>
       <Header />
       
-      <Spacer height="120px" width="100%" />
+      <Spacer height="20vh" width="100%" />
 
       <Intoduction />
 
-      <Spacer height='250px' width='100%' />
+      <Spacer height='20vh' width='100%' />
+
       <ChevronAnimation />
-      <Spacer height='150px' width='100%' />
+
+      <Spacer height='40vh' width='100%' />
 
       <Education />
 
