@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Project from './components/project_cmpnt'
+import Projects from './components/projects_section'
 import Header from './components/header_comps/header'
 import Spacer from './components/spacer'
 import Intoduction from './components/intro'
@@ -34,15 +34,7 @@ function App() {
 
       <Spacer height='400px' width='100%' />
 
-      <div className="card scroll-point">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Clicks: {count}
-        </button>
-      </div>
-      <div id="projects">
-        <Project text="PROJECT 1"/>
-        <Project text="PROJECT 2"/>
-      </div>
+      <Projects />
 
       <Spacer height='500px' width='100%' />
 

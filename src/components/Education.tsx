@@ -58,7 +58,7 @@ const Education: React.FC = () => {
       of the memories I made along the way.</h2>
       <Spacer height="50px" width="100%" />
 
-      <div className="image_container">
+      <div className="container">
         <Image image_path={OSUPic}/>
         <Image image_path={ATV}/>
         <Image image_path={Soccer}/>
