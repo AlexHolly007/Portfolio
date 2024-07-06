@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Projects from './components/projects_section'
 import Header from './components/header_comps/header'
 import Spacer from './components/spacer'
@@ -7,14 +6,10 @@ import Education from './components/Education'
 import Infrastructure from './components/Infrastructure'
 import ChevronAnimation from './components/down_arrows'
 import './App.css'
-/* TODO
--complete header links to divs in app
--css introduction 
-  -circle that shrinks into center and bounces to reveal the welcome message
-*/
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
   
   return (
     <>

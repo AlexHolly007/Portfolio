@@ -54,6 +54,7 @@ const Education: React.FC = () => {
       <div className={`right-bar ${bgColorClass}`} />
       <div id="Education" ></div>
 
+      <h1>OSU</h1>
       <h2>I got so much more from Oregon State then a degree, here are some <br></br>
       of the memories I made along the way.</h2>
       <Spacer height="10vh" width="100%" />
