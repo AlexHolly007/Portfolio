@@ -56,7 +56,7 @@ const Education: React.FC = () => {
 
       <h2>I got so much more from Oregon State then a degree, here are some <br></br>
       of the memories I made along the way.</h2>
-      <Spacer height="50px" width="100%" />
+      <Spacer height="10vh" width="100%" />
 
       <div className="container">
         <Image image_path={OSUPic}/>
