@@ -4,6 +4,9 @@ import Spacer from "./spacer";
 import Image from "./Image_pack";
 import OSUPic from '../assets/OSU_pic.jpeg'
 import Basketball from '../assets/basketball.jpeg'
+import ATV from '../assets/atv.jpeg'
+import FootballGame from '../assets/football_game.jpeg'
+import Soccer from '../assets/soccer_pic.jpeg'
 
 
 const Education: React.FC = () => {
@@ -51,12 +54,18 @@ const Education: React.FC = () => {
       <div className={`right-bar ${bgColorClass}`} />
       <div id="Education" ></div>
 
+      <h1>OSU</h1>
       <h2>I got so much more from Oregon State then a degree, here are some <br></br>
       of the memories I made along the way.</h2>
-      <Spacer height="50px" width="100%" />
-      <Image image_path={OSUPic}/>
-      <Image image_path={Basketball}/>
-      <p>end education</p>
+      <Spacer height="10vh" width="100%" />
+
+      <div className="container">
+        <Image image_path={OSUPic}/>
+        <Image image_path={ATV}/>
+        <Image image_path={Soccer}/>
+        <Image image_path={Basketball}/>
+        <Image image_path={FootballGame}/>
+      </div>
 
       <div className="scroll-point2"></div>
     </div>
