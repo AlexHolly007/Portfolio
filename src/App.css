@@ -7,6 +7,10 @@
 .invis{
   visibility: hidden;
 }
+h2 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
 
 .card {
   padding: 2em;
