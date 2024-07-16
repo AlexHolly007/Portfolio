@@ -65,6 +65,7 @@ const Education: React.FC = () => {
         <Image image_path={Basketball}/>
         <Image image_path={FootballGame}/>
       </div>
+      <h2>Working with the Center for Qualitative Life Sciences</h2>
 
       <div className="scroll-point2"></div>
     </div>

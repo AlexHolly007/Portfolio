@@ -9,7 +9,8 @@
 }
 h2 {
   word-wrap: break-word;
-  overflow-wrap: break-word;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .card {
