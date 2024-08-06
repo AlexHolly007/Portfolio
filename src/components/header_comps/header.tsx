@@ -25,9 +25,9 @@ const Header: React.FC = () => {
             </Header_link>
             
             <div className="icon_class">
-                <Icon site_link="https://www.linkedin.com/in/alex-holly213/" icon_img={faLinkedin} />
+                <Icon site_link="https://www.linkedin.com/in/alex-holly213/" icon_img={faLinkedin} size='1x'/>
                 <Spacer width="25px" />
-                <Icon site_link="https://github.com/AlexHolly007" icon_img={faGithub} />
+                <Icon site_link="https://github.com/AlexHolly007" icon_img={faGithub} size='1x'/>
             </div>
         </div>
     )
