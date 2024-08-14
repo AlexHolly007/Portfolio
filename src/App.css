@@ -54,6 +54,11 @@ h2 {
   margin-left: 12%;
 }
 
+.conclusion_component {
+  white-space: no-wrap;
+  text-wrap:nowrap;
+}
+
 .border {
   border: 1px solid white;
 }
