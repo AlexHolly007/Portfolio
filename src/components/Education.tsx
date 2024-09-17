@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import "../intro.css";
 import Spacer from "./spacer";
 import Image from "./Image_pack";
-import OSUPic from '../assets/OSU_pic.jpeg'
-import Basketball from '../assets/basketball.jpeg'
-import ATV from '../assets/atv.jpeg'
-import FootballGame from '../assets/football_game.jpeg'
-import Soccer from '../assets/soccer_pic.jpeg'
+import OSUPic from '/OSU_pic.jpeg'
+import Basketball from '/basketball.jpeg'
+import ATV from '/atv.jpeg'
+import FootballGame from '/football_game.jpeg'
+import Soccer from '/soccer_pic.jpeg'
 
 
 const Education: React.FC = () => {

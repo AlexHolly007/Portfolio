@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
             <div className="container">
                 <Project url="https://youtu.be/wBHxsVFhX0U" text="AlexOS C programming"/>
                 <Project url="https://www.youtube.com/watch?v=Bfcg4tS8hpw" text="Ecosystem Evolution Simulation"/>
-                <WebsiteProject text="Random Website" url="https://www.godaddy.com" thumbnailUrl="https://via.placeholder.com/320x180"/>
+                <WebsiteProject text="Object Detection Net" url="https://github.com/AlexHolly007/Digital-Net" thumbnailUrl="src/assets/digital_net.jpeg"/>
             </div>
         </div>
     )

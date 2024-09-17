@@ -7,6 +7,7 @@ interface WebsiteProjectType {
 }
 
 const WebsiteProject: React.FC<WebsiteProjectType> = ({ url, text, thumbnailUrl }) => {
+
     return (
         <a href={url} target="_blank" rel="noopener noreferrer" className="website-project">
             {thumbnailUrl && <img src={thumbnailUrl} alt={text} className="website-thumbnail" />}
