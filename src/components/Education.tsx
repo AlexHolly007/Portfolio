@@ -61,7 +61,7 @@ const Education: React.FC = () => {
       <h2>University can be about a lot more than academics, here are some of those moments I captured along the way.</h2>
       <Spacer height="5vh" width="100%" />
 
-      <div style={{border: "solid 1px red"}} className="container-pics">
+      <div className="container-pics">
         <Image image_path={OSUPic} caption="OSU decleration"/>
         <Image image_path={FootballGame} caption="GO BEAVS"/>
         <Image image_path={IT} caption="Building PC"/>
