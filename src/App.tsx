@@ -26,11 +26,11 @@ function App() {
 
       <Spacer height='40vh' width='100%' />
 
-      <Education />
+      <Projects />
 
       <Spacer height='400px' width='100%' />
 
-      <Projects />
+      <Education />
 
       <Spacer height='200px' width='100%' />
 

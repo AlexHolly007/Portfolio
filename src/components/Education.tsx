@@ -10,7 +10,7 @@ import Soccer from '/soccer_pic.jpeg'
 
 
 const Education: React.FC = () => {
-    const [bgColorClass, setBgColorClass] = useState("");
+  const [bgColorClass, setBgColorClass] = useState("");
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -55,17 +55,17 @@ const Education: React.FC = () => {
       <div id="Education" ></div>
 
       <h1>OSU</h1>
-      <h2>I got so much more from Oregon State then a degree, here are some of the memories I made along the way.</h2>
+      <h2>University can be about a lot more than academics, here are some of those moments I captured along the way.</h2>
       <Spacer height="10vh" width="100%" />
 
       <div className="container">
-        <Image image_path={OSUPic}/>
-        <Image image_path={ATV}/>
-        <Image image_path={Soccer}/>
-        <Image image_path={Basketball}/>
-        <Image image_path={FootballGame}/>
+        <Image image_path={OSUPic} caption="OSU decleration"/>
+        <Image image_path={ATV} caption="ATV group"/>
+        <Image image_path={Soccer} caption="IM champions"/>
+        <Image image_path={Basketball} caption="IM non-champs"/>
+        <Image image_path={FootballGame} caption="GO BEAVS"/>
       </div>
-      <h2>Working with the Center for Qualitative Life Sciences</h2>
+      {/* <h2>Working with the Center for Qualitative Life Sciences</h2> */}
 
       <div className="scroll-point2"></div>
     </div>

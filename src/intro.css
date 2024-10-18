@@ -43,7 +43,6 @@
     width: 10%;
     height: 100%;
     background-color: transparent;
-    opacity: 70%;
     transition: background-color 0.5s ease;
     z-index: -100;
 }
@@ -58,17 +57,28 @@
     transition: background-color 0.5s ease;
     z-index: -100;
 }
+
 .color1 {
-    background-color: rgb(250, 107, 40);
+    background-color: rgb(255, 102, 31);
 }
 .color2 {
     background-color: transparent;
 }
+.color3 {
+  background-color: rgb(2, 100, 64);
+}
+
 .scroll-zone{
     color: rgb(255, 102, 31);
     font-weight: 500;
     text-decoration: inherit;
 }
+.scroll-proj-zone{
+    color: rgb(2, 100, 64);
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
 /*BOUNCING WORDS IN INTRO*/
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
