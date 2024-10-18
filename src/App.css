@@ -7,6 +7,11 @@
 .invis{
   visibility: hidden;
 }
+h2 {
+  word-wrap: break-word;
+  width: 70%;
+  margin-left: 15%;
+}
 
 .card {
   padding: 2em;
@@ -49,10 +54,24 @@
   margin-left: 12%;
 }
 
+.conclusion_component {
+  white-space: no-wrap;
+  text-wrap:nowrap;
+}
+
 .border {
   border: 1px solid white;
 }
 
+
+.container-pics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vw;
+  justify-content: center;
+  width: 86%;
+  margin-left: 7%;
+}
 
 /*FOR PROJECT VIDEO*/
 .project {
@@ -96,6 +115,7 @@
 
 .text {
   padding: 8px;
+  width: 80%;
   text-align: center;
   font-size: 16px;
 }
@@ -143,6 +163,16 @@
 
 .website-text {
   padding: 8px;
+  width: 80%;
   text-align: center;
   font-size: 16px;
+}
+
+.conclusion {
+  background-color: rgb(29, 29, 29);
+  height: 20vh;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: -1;
 }

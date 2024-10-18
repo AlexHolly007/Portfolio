@@ -5,6 +5,7 @@ import Intoduction from './components/intro'
 import Education from './components/Education'
 import Infrastructure from './components/Infrastructure'
 import ChevronAnimation from './components/down_arrows'
+import Conclusion from './components/conclusion'
 import './App.css'
 
 
@@ -25,17 +26,15 @@ function App() {
 
       <Spacer height='40vh' width='100%' />
 
-      <Education />
+      <Projects />
 
       <Spacer height='400px' width='100%' />
 
-      <Projects />
-
-      <Spacer height='500px' width='100%' />
-
-      <Infrastructure />
+      <Education />
 
       <Spacer height='200px' width='100%' />
+
+      <Conclusion />
     </>
   )
 }

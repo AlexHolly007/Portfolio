@@ -23,7 +23,7 @@ const Introduction: React.FC = () => {
     };
   }, []);
 
-  const text = "Welcome to Alex Holly's Portfolio";
+  const text = "Welcome to My Portfolio";
   const text2 = "Student    Cloud Developer    Project manager    Teammate    Infrastructure Engineer";
 
   return (
