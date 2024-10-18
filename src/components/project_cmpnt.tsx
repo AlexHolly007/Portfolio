@@ -1,7 +1,6 @@
 import React from 'react';
 import Icon from './header_comps/icon';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
 interface ProjectType {
     url: string;

@@ -3,7 +3,6 @@ import Header_link from "./link";
 import Spacer from "../spacer"
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
 import Icon from "./icon";
 
 const Header: React.FC = () => {
