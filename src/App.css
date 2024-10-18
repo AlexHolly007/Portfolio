@@ -64,6 +64,15 @@ h2 {
 }
 
 
+.container-pics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vw;
+  justify-content: center;
+  width: 86%;
+  margin-left: 7%;
+}
+
 /*FOR PROJECT VIDEO*/
 .project {
   position: relative; /* Needed to position the overlay */

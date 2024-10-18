@@ -5,9 +5,12 @@ import Image from "./Image_pack";
 import OSUPic from '/OSU_pic.jpeg'
 import Basketball from '/basketball.jpeg'
 import ATV from '/atv.jpeg'
-import FootballGame from '/football_game.jpeg'
+import FootballGame from '/football_c.jpeg'
 import Soccer from '/soccer_pic.jpeg'
-
+import Backpack from '/Backpack.jpeg'
+import IT from '/IT.jpeg'
+import Mecop from '/mecop.jpeg'
+import Printer from '/printer.jpeg'
 
 const Education: React.FC = () => {
   const [bgColorClass, setBgColorClass] = useState("");
@@ -56,16 +59,19 @@ const Education: React.FC = () => {
 
       <h1>OSU</h1>
       <h2>University can be about a lot more than academics, here are some of those moments I captured along the way.</h2>
-      <Spacer height="10vh" width="100%" />
+      <Spacer height="5vh" width="100%" />
 
-      <div className="container">
+      <div style={{border: "solid 1px red"}} className="container-pics">
         <Image image_path={OSUPic} caption="OSU decleration"/>
-        <Image image_path={ATV} caption="ATV group"/>
+        <Image image_path={FootballGame} caption="GO BEAVS"/>
+        <Image image_path={IT} caption="Building PC"/>
         <Image image_path={Soccer} caption="IM champions"/>
         <Image image_path={Basketball} caption="IM non-champs"/>
-        <Image image_path={FootballGame} caption="GO BEAVS"/>
+        <Image image_path={Backpack} caption="Rogue River Backpacking with team"/>
+        <Image image_path={Printer} caption="Built 3d printer for the center"/>
+        <Image image_path={Mecop} caption="Worked with amazing team through MECOP"/>
+        <Image image_path={ATV} caption="ATV group"/>
       </div>
-      {/* <h2>Working with the Center for Qualitative Life Sciences</h2> */}
 
       <div className="scroll-point2"></div>
     </div>
