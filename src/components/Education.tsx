@@ -2,12 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../intro.css";
 import Spacer from "./spacer";
 import Image from "./Image_pack";
-import OSUPic from '/OSU_pic.jpeg'
 import Basketball from '/basketball.jpeg'
-import ATV from '/atv.jpeg'
-import FootballGame from '/football_c.jpeg'
 import Soccer from '/soccer_pic.jpeg'
-import Backpack from '/Backpack.jpeg'
 import IT from '/IT.jpeg'
 import Mecop from '/mecop.jpeg'
 import Printer from '/printer.jpeg'
@@ -62,15 +58,11 @@ const Education: React.FC = () => {
       <Spacer height="5vh" width="100%" />
 
       <div className="container-pics">
-        <Image image_path={OSUPic} caption="OSU decleration"/>
-        <Image image_path={FootballGame} caption="GO BEAVS"/>
-        <Image image_path={IT} caption="Building PC"/>
+        <Image image_path={Printer} caption="Built 3d printer for CEAOS center"/>
+        <Image image_path={Mecop} caption="Learned a ton from my team at Siemens EDA through MECOP"/>
+        <Image image_path={IT} caption="Building compute to deploy AI Image Clustering"/>
         <Image image_path={Soccer} caption="IM champions"/>
         <Image image_path={Basketball} caption="IM non-champs"/>
-        <Image image_path={Backpack} caption="Rogue River Backpacking with team"/>
-        <Image image_path={Printer} caption="Built 3d printer for the center"/>
-        <Image image_path={Mecop} caption="Worked with amazing team through MECOP"/>
-        <Image image_path={ATV} caption="ATV group"/>
       </div>
 
       <div className="scroll-point2"></div>

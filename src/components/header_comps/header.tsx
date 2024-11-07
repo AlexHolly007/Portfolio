@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     return (
         <div className="header">
             <Header_link target="IntroDiv">
-                Me
+                About Me
             </Header_link>
 
             <Header_link target="Education">
