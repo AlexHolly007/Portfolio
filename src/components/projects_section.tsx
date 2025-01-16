@@ -56,6 +56,7 @@ const Projects: React.FC = () => {
                 <Project url="https://youtu.be/wBHxsVFhX0U" text="AlexOS - Process/signal handeling, C programming " gh_link="https://github.com/AlexHolly007/AlexOS"/>
                 <Project url="https://youtu.be/-A8sF0KUrwk" text="GEO Timelapse - GCP, Google Earth Engine" gh_link="https://github.com/AlexHolly007/gee_project"/>
                 <WebsiteProject text="Digital Net - YOLO Object Detection" url="https://github.com/AlexHolly007/Digital-Net" thumbnailUrl={diginet} gh_link="https://github.com/AlexHolly007/Digital-Net"/>
+                <WebsiteProject text="Student Canvas - GCP - API" url="https://github.com/AlexHolly007/Student-Canvas-GCP" thumbnailUrl={canvas_ex} gh_link="https://github.com/AlexHolly007/Student-Canvas-GCP"/>
             </div>
 
             <div className="scroll-proj-point2"></div>
