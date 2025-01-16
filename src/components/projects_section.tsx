@@ -3,6 +3,7 @@ import "../intro.css";
 import Project from "./project_cmpnt";
 import WebsiteProject from "./project_site";
 import diginet from '/digital_net.jpeg';
+import canvas_ex from '/Canvas_example.jpeg';
 
 const Projects: React.FC = () => {
     const [bgColorClass, setBgColorClass] = useState("");
