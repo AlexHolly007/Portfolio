@@ -4,6 +4,8 @@ import Project from "./project_cmpnt";
 import WebsiteProject from "./project_site";
 import diginet from '/digital_net.jpeg';
 import canvas_ex from '/Canvas_example.jpeg';
+import venome from '/Venome-site.jpeg';
+import Agent_evolution from '/Agent-Evolution.jpeg'
 
 const Projects: React.FC = () => {
     const [bgColorClass, setBgColorClass] = useState("");
@@ -54,10 +56,12 @@ const Projects: React.FC = () => {
             <h1>Projects</h1>
             <h2>I believe one of the best ways to expand and test my knowledge is through through projects. Here are a some of the recent projects I have been working on.</h2>
             <div className="container">
-                <Project url="https://youtu.be/wBHxsVFhX0U" text="AlexOS - Process/signal handeling, C programming " gh_link="https://github.com/AlexHolly007/AlexOS"/>
+                <WebsiteProject text="Capstone Project - Venome - Protein Data Visualization and Exploration Platform" url="https://venome.cqls.oregonstate.edu/" thumbnailUrl={venome} gh_link="https://github.com/Venom-Biochem-Lab/venome"/>
+                <Project url="https://youtu.be/wBHxsVFhX0U" text="MiniOS - Process/signal handeling, C programming " gh_link="https://github.com/AlexHolly007/AlexOS"/>
+                <WebsiteProject text="Student Canvas - GCP - API" url="https://github.com/AlexHolly007/Student-Canvas-GCP" thumbnailUrl={canvas_ex} gh_link="https://github.com/AlexHolly007/Student-Canvas-GCP"/>
                 <Project url="https://youtu.be/-A8sF0KUrwk" text="GEO Timelapse - GCP, Google Earth Engine" gh_link="https://github.com/AlexHolly007/gee_project"/>
                 <WebsiteProject text="Digital Net - YOLO Object Detection" url="https://github.com/AlexHolly007/Digital-Net" thumbnailUrl={diginet} gh_link="https://github.com/AlexHolly007/Digital-Net"/>
-                <WebsiteProject text="Student Canvas - GCP - API" url="https://github.com/AlexHolly007/Student-Canvas-GCP" thumbnailUrl={canvas_ex} gh_link="https://github.com/AlexHolly007/Student-Canvas-GCP"/>
+                <WebsiteProject text="Agent Evolution Simulation - Python Project" url="https://github.com/AlexHolly007/Genetic-Evolution-Simulation" thumbnailUrl={Agent_evolution} gh_link="https://github.com/AlexHolly007/Genetic-Evolution-Simulation" />
             </div>
 
             <div className="scroll-proj-point2"></div>
