@@ -19,10 +19,6 @@ const Header: React.FC = () => {
             <Header_link target="projects">
                 Projects
             </Header_link>
-
-            <Header_link target="Infrastructure">
-                Infrastructure
-            </Header_link>
             
             <div className="icon_class">
                 <a href={"https://docs.google.com/document/d/1LZ5sCFjnq4bRzHqrio42gTC8AWEDUmu9/edit?usp=sharing&ouid=116882288099539112958&rtpof=true&sd=true"} className="linkid" target="_blank" rel="noopener noreferrer">Resume</a>
