@@ -48,13 +48,13 @@ const Projects: React.FC = () => {
 
     return (
 
-        <div className="scroll-proj-point1" id="projects">
+        <div className="scroll-proj-point1">
             <div className={`left-bar ${bgColorClass}`} />
             <div className={`right-bar ${bgColorClass}`} />
-            <div id="Education" ></div>
 
             <h1>Projects</h1>
             <h2>I believe one of the best ways to expand and test my knowledge is through through projects. Here are a some of the recent projects I have been working on.</h2>
+            <div id="projects" ></div>
             <div className="container">
                 <WebsiteProject text="Capstone Project - Venome - Protein Data Visualization and Exploration Platform" url="https://venome.cqls.oregonstate.edu/" thumbnailUrl={venome} gh_link="https://github.com/Venom-Biochem-Lab/venome"/>
                 <Project url="https://youtu.be/wBHxsVFhX0U" text="MiniOS - Process/signal handeling, C programming " gh_link="https://github.com/AlexHolly007/AlexOS"/>

@@ -51,10 +51,10 @@ const Education: React.FC = () => {
     <div className="scroll-point1">
       <div className={`left-bar ${bgColorClass}`} />
       <div className={`right-bar ${bgColorClass}`} />
-      <div id="Education" ></div>
 
       <h1>OSU</h1>
       <h2>University can be about a lot more than academics, here are some of those moments I captured along the way.</h2>
+      <div id="Education" ></div>
       <Spacer height="5vh" width="100%" />
 
       <div className="container-pics">
