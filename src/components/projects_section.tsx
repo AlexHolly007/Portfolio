@@ -5,7 +5,8 @@ import WebsiteProject from "./project_site";
 import diginet from '/digital_net.jpeg';
 import canvas_ex from '/Canvas_example.jpeg';
 import venome from '/Venome-site.jpeg';
-import Agent_evolution from '/Agent-Evolution.jpeg'
+import Agent_evolution from '/Agent-Evolution.jpeg';
+import alexOS from '/alexOS.jpeg';
 
 const Projects: React.FC = () => {
     const [bgColorClass, setBgColorClass] = useState("");
@@ -53,14 +54,15 @@ const Projects: React.FC = () => {
             <div className={`right-bar ${bgColorClass}`} />
 
             <h1>Projects</h1>
-            <h2>I believe one of the best ways to expand and test my knowledge is through through projects. Here are a some of the recent projects I have been working on.</h2>
+            <h2>I believe one of the best ways to learn is through giving it a go. Here are a some of the recent projects I have been working on.</h2>
             <div id="projects" ></div>
             <div className="container">
-                <WebsiteProject text="Capstone Project - Venome - Protein Data Visualization and Exploration Platform" url="https://venome.cqls.oregonstate.edu/" thumbnailUrl={venome} gh_link="https://github.com/Venom-Biochem-Lab/venome"/>
-                <Project url="https://youtu.be/wBHxsVFhX0U" text="MiniOS - Process/signal handeling, C programming " gh_link="https://github.com/AlexHolly007/AlexOS"/>
-                <WebsiteProject text="Student Canvas - GCP - API" url="https://github.com/AlexHolly007/Student-Canvas-GCP" thumbnailUrl={canvas_ex} gh_link="https://github.com/AlexHolly007/Student-Canvas-GCP"/>
-                <Project url="https://youtu.be/-A8sF0KUrwk" text="GEO Timelapse - GCP, Google Earth Engine" gh_link="https://github.com/AlexHolly007/gee_project"/>
-                <WebsiteProject text="Digital Net - YOLO Object Detection" url="https://github.com/AlexHolly007/Digital-Net" thumbnailUrl={diginet} gh_link="https://github.com/AlexHolly007/Digital-Net"/>
+                <Project url="https://youtu.be/NXxnfU0O4QU" text="Simulation - AWS, Docker, FastAPI/Python, Nginx/JS&HTML" gh_link="https://github.com/AlexHolly007/Simulation"/>
+                <WebsiteProject text="Capstone Project - Full Stack, Data visualization, SQL, Alphafold" url="https://venome.cqls.oregonstate.edu/" thumbnailUrl={venome} gh_link="https://github.com/Venom-Biochem-Lab/venome"/>
+                <WebsiteProject text="MiniOS - C language - Memory,Signal,Thread,Process handling" url="https://github.com/AlexHolly007/AlexOS" thumbnailUrl={alexOS} gh_link="https://github.com/AlexHolly007/AlexOS"/>
+                <Project url="https://youtu.be/-A8sF0KUrwk" text="GEO Timelapse - GCP, React, Flask" gh_link="https://github.com/AlexHolly007/gee_project"/>
+                <WebsiteProject text="Digital Net - YOLO CNN object detection, Python" url="https://github.com/AlexHolly007/Digital-Net" thumbnailUrl={diginet} gh_link="https://github.com/AlexHolly007/Digital-Net"/>
+                <WebsiteProject text="Student Canvas API - GCP, Flask, Postman" url="https://github.com/AlexHolly007/Student-Canvas-GCP" thumbnailUrl={canvas_ex} gh_link="https://github.com/AlexHolly007/Student-Canvas-GCP"/>
                 <WebsiteProject text="Agent Evolution Simulation - Python Project" url="https://github.com/AlexHolly007/Genetic-Evolution-Simulation" thumbnailUrl={Agent_evolution} gh_link="https://github.com/AlexHolly007/Genetic-Evolution-Simulation" />
             </div>
 

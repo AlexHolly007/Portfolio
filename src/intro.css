@@ -20,21 +20,19 @@
 .fade-in-word:nth-child(7) { transition-delay: 0s; }
 .fade-in-word:nth-child(8) { transition-delay: 0.0s; }
 .fade-in-word:nth-child(9) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(10) { transition-delay: 1.6s; }
-.fade-in-word:nth-child(11) { transition-delay: 1.6s; }
-.fade-in-word:nth-child(12) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(13) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(14) { transition-delay: 2.0s; }
-.fade-in-word:nth-child(15) { transition-delay: 2.0s; }
-.fade-in-word:nth-child(16) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(17) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(16) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(17) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(18) { transition-delay: 0.0s; }
-.fade-in-word:nth-child(19) { transition-delay: 2.4s; }
-.fade-in-word:nth-child(20) { transition-delay: 2.4s; }
-.fade-in-word:nth-child(21) { transition-delay: 2.4s; }
-.fade-in-word:nth-child(22) { transition-delay: 2.4s; }
+.fade-in-word:nth-child(10) { transition-delay: 1.7s; }
+.fade-in-word:nth-child(11) { transition-delay: 1.7s; }
+.fade-in-word:nth-child(12) { transition-delay: 1.7s; }
+.fade-in-word:nth-child(13) { transition-delay: 1.7s; }
+.fade-in-word:nth-child(14) { transition-delay: 1.7s; }
+.fade-in-word:nth-child(15) { transition-delay: 1.7s; }
+.fade-in-word:nth-child(16) { transition-delay: 2.2s; }
+.fade-in-word:nth-child(17) { transition-delay: 2.2s; }
+.fade-in-word:nth-child(16) { transition-delay: 2.4s; }
+.fade-in-word:nth-child(17) { transition-delay: 2.4s; }
+.fade-in-word:nth-child(18) { transition-delay: 2.4s; }
+
+
 
 
 /*OSU COLOR BARS*/
