@@ -15,7 +15,7 @@ const Conclusion: React.FC = () => {
                 </div>
                 <div className="conclusion_component">
                     <h2>Resume</h2>
-                    <Icon site_link="https://docs.google.com/document/d/1LZ5sCFjnq4bRzHqrio42gTC8AWEDUmu9/edit?usp=sharing&ouid=116882288099539112958&rtpof=true&sd=true" icon_img={faFile} size='3x'/>
+                    <Icon site_link="/Portfolio/Bioinfo.docx" icon_img={faFile} size='3x'/>
                 </div>
                 <div className="conclusion_component">
                     <h2>Github</h2>
