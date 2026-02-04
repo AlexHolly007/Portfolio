@@ -12,16 +12,16 @@ const Header: React.FC = () => {
                 About Me
             </Header_link>
 
-            <Header_link target="Education">
+            {/* <Header_link target="Education">
                 OSU
-            </Header_link>
+            </Header_link> */}
 
             <Header_link target="projects">
                 Projects
             </Header_link>
             
             <div className="icon_class">
-                <a href="/Portfolio/AlexHolly_resume.docx" className="linkid" target="_blank" rel="noopener noreferrer">
+                <a href="/Portfolio/Bioinfo.docx" className="linkid" target="_blank" rel="noopener noreferrer">
                     Resume
                 </a>
                 <Spacer width="25px" />

@@ -29,9 +29,8 @@ function App() {
 
       <Spacer height='400px' width='100%' />
 
-      <Education />
-
-      <Spacer height='200px' width='100%' />
+      {/* <Education /> */}
+      {/* <Spacer height='200px' width='100%' /> */}
 
       <Conclusion />
     </>

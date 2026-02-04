@@ -73,6 +73,53 @@ h2 {
   margin-left: 7%;
 }
 
+.slideshow {
+  position: relative;
+  width: 86%;
+  margin-left: 7%;
+  height: 360px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slide.active {
+  opacity: 1;
+  position: relative;
+}
+
+.slideshow-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #777;
+  opacity: 0.4;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dot-active {
+  opacity: 1;
+  transform: scale(1.05);
+  background-color: #333;
+}
+
 /*FOR PROJECT VIDEO*/
 .project {
   position: relative; /* Needed to position the overlay */

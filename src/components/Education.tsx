@@ -10,6 +10,15 @@ import Printer from '/printer.jpeg'
 
 const Education: React.FC = () => {
   const [bgColorClass, setBgColorClass] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const slides = [
+    { image: Printer, caption: "Built 3d printer for CEAOS center" },
+    { image: Mecop, caption: "Learned a ton from my team at Siemens EDA through MECOP" },
+    { image: IT, caption: "Building compute to deploy AI Image Clustering" },
+    { image: Soccer, caption: "IM champions" },
+    { image: Basketball, caption: "IM non-champs" }
+  ];
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -47,22 +56,41 @@ const Education: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % slides.length);
+    }, 4500);
+
+    return () => clearInterval(timer);
+  }, [slides.length]);
+
   return (
     <div className="scroll-point1">
       <div className={`left-bar ${bgColorClass}`} />
       <div className={`right-bar ${bgColorClass}`} />
 
-      <h1>OSU</h1>
-      <h2>University can be about a lot more than academics, here are some of those moments I captured along the way.</h2>
+      <h2>University can be about a lot more than academics, here are some of those moments from along the way.</h2>
       <div id="Education" ></div>
       <Spacer height="5vh" width="100%" />
 
-      <div className="container-pics">
-        <Image image_path={Printer} caption="Built 3d printer for CEAOS center"/>
-        <Image image_path={Mecop} caption="Learned a ton from my team at Siemens EDA through MECOP"/>
-        <Image image_path={IT} caption="Building compute to deploy AI Image Clustering"/>
-        <Image image_path={Soccer} caption="IM champions"/>
-        <Image image_path={Basketball} caption="IM non-champs"/>
+      <div className="slideshow">
+        {slides.map((slide, index) => (
+          <div
+            key={slide.caption}
+            className={`slide ${index === currentIndex ? "active" : ""}`}
+            aria-hidden={index !== currentIndex}
+          >
+            <Image image_path={slide.image} caption={slide.caption} />
+          </div>
+        ))}
+      </div>
+      <div className="slideshow-dots" aria-label="Education slideshow dots">
+        {slides.map((_, index) => (
+          <span
+            key={index}
+            className={`dot ${index === currentIndex ? "dot-active" : ""}`}
+          />
+        ))}
       </div>
 
       <div className="scroll-point2"></div>

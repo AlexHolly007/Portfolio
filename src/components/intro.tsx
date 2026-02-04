@@ -24,7 +24,7 @@ const Introduction: React.FC = () => {
   }, []);
 
   const text = "Welcome to My Portfolio";
-  const text2 = "Student    Software Engineer    Stack Overflow Archaeologist    Data Scientist";
+  const text2 = "Computer Scientist     Bioinformatician     Student     Software Developer";
 
   return (
     <div className="" id="IntroDiv">
